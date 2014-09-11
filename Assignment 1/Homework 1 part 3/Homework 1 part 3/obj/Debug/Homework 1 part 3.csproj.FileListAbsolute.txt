@@ -1,0 +1,10 @@
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\bin\Debug\Homework 1 part 3.exe.config
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\bin\Debug\Homework 1 part 3.exe
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\bin\Debug\Homework 1 part 3.pdb
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework 1 part 3.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework_1_part_3.Form1.resources
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework_1_part_3.Form2.resources
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework_1_part_3.Properties.Resources.resources
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework 1 part 3.csproj.GenerateResource.Cache
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework 1 part 3.exe
+C:\Users\Josh\Desktop\Homework 1 part 3\Homework 1 part 3\obj\Debug\Homework 1 part 3.pdb
