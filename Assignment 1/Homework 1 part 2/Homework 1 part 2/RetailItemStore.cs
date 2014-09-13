@@ -8,16 +8,21 @@ namespace Homework_1_part_2
 {
     class RetailItemStore
     {
-        private static List<RetailItem> Items = new List<RetailItem>();
+        // static list used for storing RetailItem objects
+        private static List<RetailItem> items = new List<RetailItem>();
 
+        // this method add items to the private list
         public static void AddItem(RetailItem item)
         {
-            Items.Add(item);
+            // adds items to list
+            items.Add(item);
         }
 
+        // this method gets the whole list for reading
         public static List<RetailItem> getItems()
         {
-            return Items;
+            // returns list "items"
+            return items;
         }
 
     }
