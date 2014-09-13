@@ -85,7 +85,11 @@ namespace Homework_1
             else
                 // show a message box saying that you failed 
                 MessageBox.Show("you failed");
+        }
 
+        // fires when show results button is hit
+        private void button2_Click(object sender, EventArgs e)
+        {
             // hide the current form so that the user can not interace with it anymore
             this.Hide();
             // open up the new form that displays the results

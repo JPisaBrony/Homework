@@ -12,6 +12,8 @@ namespace Homework_1
 {
     public partial class Form2 : Form
     {
+        // main form constructor
+        // this constructor initializes everything in the form2
         public Form2(char[] userAnswers, char[] answers, int total)
         {
             // pre generated, initialize all the components
@@ -34,6 +36,13 @@ namespace Homework_1
 
         // method hook
         private void Form2_FormClosing(object sender, FormClosedEventArgs e) {
+            // close all the forms when the user closes the application
+            Application.Exit();
+        }
+
+        // close button method
+        private void button1_Click(object sender, EventArgs e)
+        {
             // close all the forms when the user closes the application
             Application.Exit();
         }
