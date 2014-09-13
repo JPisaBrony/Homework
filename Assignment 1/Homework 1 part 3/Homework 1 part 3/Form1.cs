@@ -13,55 +13,50 @@ namespace Homework_1_part_3
 {
     public partial class Form1 : Form
     {
-
+        // form1 constructor
         public Form1()
         {
+            // startup everything
             InitializeComponent();
+
+            // this string is used for holding the information at each line in the text document
+            string line;
+            // this string array is used for spliting up the string into each part
+            string[] data;
+
+            // try block
+            // this makes sure that the there is a text file avaliable for reading
             try
             {
-                string line, part1 = "", part2 = "", part3 = "";;
-                int counter = 0;
+                // stream reader for reading the information from the text file
                 StreamReader input = new StreamReader("list.txt");
+                // iterate through the file until the last line
                 while ((line = input.ReadLine()) != null)
                 {
-                    counter++;
-                    switch (counter)
-                    {
-                        case 1:
-                            part1 = line;
-                            break;
-                        case 2:
-                            part2 = line;
-                            break;
-                        case 3:
-                            part3 = line;
-                            break;
-                        default:
-                            PersonEntry person = new PersonEntry(part1, part2, part3);
-                            PersonEntryList.addPerson(person);
-                            listBox1.Items.Add(person);
-                            counter = 0;
-                            break;
-                    }
-                    /*
-                    string[] part1, part2, part3;
-                    part1 = line.Split(' ');
-                    part2 = line.Split(' ');
-                    part3 = line.Split(' ');
-                    PersonEntry person = new PersonEntry(part1.ToString, part2.ToString, part3.ToString);
+                    // split up the data into each part
+                    data = line.Split(',');
+                    // create a person object from the split up data
+                    PersonEntry person = new PersonEntry(data[0], data[1], data[2]);
+                    // adds the object to the PersonEntryList list
+                    PersonEntryList.addPerson(person);
+                    // adds the object to the listbox
                     listBox1.Items.Add(person);
-                    */
                 }
             }
+            // catches any exceptions thrown
             catch (Exception e)
             {
+                // shows a message box with the reason that the exeception was thrown
                 MessageBox.Show(e.Message);
             }
         }
 
+        // fires when the user clicks on one of the items in the listbox selection area
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // creates a new form2 object
             Form2 form2 = new Form2(listBox1.SelectedIndex);
+            // shows form2
             form2.ShowDialog();
         }
 
