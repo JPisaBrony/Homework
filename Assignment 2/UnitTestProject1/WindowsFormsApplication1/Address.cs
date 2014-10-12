@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WindowsFormsApplication1
+{
+    public class Address
+    {
+        public string Name { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string ZipCode { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+
+        public Address(string n, string s, string c, string z, string t, string u)
+        {
+            Name = n;
+            Street = s;
+            City = c;
+            ZipCode = z;
+            State = t;
+            Country = u;
+        }
+
+        public override string ToString()
+        {
+            return Name + "\r\n" + Street + "\r\n" + City + ", " + State + " " + ZipCode + "\r\n" + Country;
+        }
+
+    }
+}
