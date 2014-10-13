@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Invoice Application written by
+// Josh Pohl and Matt Leet
+
 namespace WindowsFormsApplication1
 {
     public class Product

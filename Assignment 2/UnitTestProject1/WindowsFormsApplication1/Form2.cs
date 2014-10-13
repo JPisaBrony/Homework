@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Invoice Application written by
+// Josh Pohl and Matt Leet
+
 namespace WindowsFormsApplication1
 {
     public partial class Form2 : Form
