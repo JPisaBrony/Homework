@@ -8,6 +8,7 @@ namespace WindowsFormsApplication1
 {
     public class Address
     {
+        // class properties
         public string Name { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
@@ -25,6 +26,8 @@ namespace WindowsFormsApplication1
             Country = u;
         }
 
+        // overriden toString to format the string so that it looks
+        // more like an address
         public override string ToString()
         {
             return Name + "\r\n" + Street + "\r\n" + City + ", " + State + " " + ZipCode + "\r\n" + Country;

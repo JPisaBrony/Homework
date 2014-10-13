@@ -18,6 +18,7 @@ namespace WindowsFormsApplication1
         // create a LineItem object for holding the list
         private LineItem lineitem = new LineItem();
         // create an address object for holding the address
+        // which is initilize with default values
         private Address address = new Address("John Doe", "11th street", "Fargo", "12345", "ND", "Canada");
 
         public Form1()
@@ -93,6 +94,7 @@ namespace WindowsFormsApplication1
             }
             catch (ArgumentOutOfRangeException exp)
             {
+                // display the error message
                 MessageBox.Show("No item selected");
             }
         }

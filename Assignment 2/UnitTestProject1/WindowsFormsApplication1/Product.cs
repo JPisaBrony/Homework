@@ -8,55 +8,23 @@ namespace WindowsFormsApplication1
 {
     public class Product
     {
-        private decimal amount;
-        private string description;
-        private int quantity;
-
-        public decimal Amount
-        {
-            get
-            {
-                return amount;   
-            }
-            set
-            {
-                amount = Amount;
-            }
-        }
-        public string Description
-        {
-            get
-            {
-                return description;
-            }
-            set
-            {
-                description = Description;
-            }
-        }
-
-        public int Quantity
-        {
-            get
-            {
-                return quantity;
-            }
-            set
-            {
-                quantity = Quantity;
-            }
-        }
+        // class properties
+        public decimal Amount { get; set; }
+        public string Description { get; set; }
+        public int Quantity { get; set; }
 
         public Product(string a, decimal d, int n)
         {
-            description = a;
-            amount = d;
-            quantity = n;
+            Description = a;
+            Amount = d;
+            Quantity = n;
         }
 
+        // formats the toString so that we can get
+        // information about each product
         public override string ToString()
         {
-            return "Description: " + description + " Amount: " + amount + " Quantity: " + quantity;
+            return "Description: " + Description + " Amount: " + Amount + " Quantity: " + Quantity;
         }
 
     }

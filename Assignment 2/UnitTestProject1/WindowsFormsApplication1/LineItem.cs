@@ -8,41 +8,31 @@ namespace WindowsFormsApplication1
 {
     public class LineItem
     {
+        // list of products
         private List<Product> list = new List<Product>();
-        private string description;
 
-        public string Description
-        {
-            get
-            {
-                return description;
-            }
-            set
-            {
-                description = Description;
-            }
-        }
+        // class properties
+        public string Description { get; set; }
 
+        // adds a product to the list
         public void addItem(Product p)
         {
             list.Add(p);
         }
 
+        // get the product list
         public List<Product> getProducts()
         {
             return list;
         }
 
-        public List<Product> getList()
-        {
-            return list;
-        }
-
+        // gets the product at a certain index
         public Product getProductAtIndex(int i)
         {
             return list[i];
         }
 
+        // removes a product at the given index
         public void removeAtIndex(int i)
         {
             list.RemoveAt(i);
