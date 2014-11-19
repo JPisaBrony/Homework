@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Exam1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam3">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Student_Name" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Course" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Class_Number" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Total_Grade" Type="Single" Nullable="false" />
+    <Property Name="Chapter_Name" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Exam1" Type="Int32" Nullable="false" />
+    <Property Name="Exam2" Type="Int32" Nullable="false" />
+    <Property Name="Exam3" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Exam1" EntityType="Self.Exam1" />
+    <EntitySet Name="Exam2" EntityType="Self.Exam2" />
+    <EntitySet Name="Exam3" EntityType="Self.Exam3" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>

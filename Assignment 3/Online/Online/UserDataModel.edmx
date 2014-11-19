@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UsersDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Exam1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Q1" Type="bit" Nullable="false" />
+          <Property Name="Q2" Type="bit" Nullable="false" />
+          <Property Name="Q3" Type="bit" Nullable="false" />
+          <Property Name="Q4" Type="bit" Nullable="false" />
+          <Property Name="Q5" Type="bit" Nullable="false" />
+          <Property Name="Q6" Type="bit" Nullable="false" />
+          <Property Name="Q7" Type="bit" Nullable="false" />
+          <Property Name="Q8" Type="bit" Nullable="false" />
+          <Property Name="Q9" Type="bit" Nullable="false" />
+          <Property Name="Q10" Type="bit" Nullable="false" />
+          <Property Name="Grade" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exam2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Q1" Type="bit" Nullable="false" />
+          <Property Name="Q2" Type="bit" Nullable="false" />
+          <Property Name="Q3" Type="bit" Nullable="false" />
+          <Property Name="Q4" Type="bit" Nullable="false" />
+          <Property Name="Q5" Type="bit" Nullable="false" />
+          <Property Name="Q6" Type="bit" Nullable="false" />
+          <Property Name="Q7" Type="bit" Nullable="false" />
+          <Property Name="Q8" Type="bit" Nullable="false" />
+          <Property Name="Q9" Type="bit" Nullable="false" />
+          <Property Name="Q10" Type="bit" Nullable="false" />
+          <Property Name="Grade" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exam3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Q1" Type="bit" Nullable="false" />
+          <Property Name="Q2" Type="bit" Nullable="false" />
+          <Property Name="Q3" Type="bit" Nullable="false" />
+          <Property Name="Q4" Type="bit" Nullable="false" />
+          <Property Name="Q5" Type="bit" Nullable="false" />
+          <Property Name="Q6" Type="bit" Nullable="false" />
+          <Property Name="Q7" Type="bit" Nullable="false" />
+          <Property Name="Q8" Type="bit" Nullable="false" />
+          <Property Name="Q9" Type="bit" Nullable="false" />
+          <Property Name="Q10" Type="bit" Nullable="false" />
+          <Property Name="Grade" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="StudentName" Type="nchar" MaxLength="40" Nullable="false" />
+          <Property Name="Course" Type="nchar" MaxLength="30" Nullable="false" />
+          <Property Name="ClassNumber" Type="int" Nullable="false" />
+          <Property Name="TotalGrade" Type="decimal" Precision="3" Scale="2" Nullable="false" />
+          <Property Name="ChapterName" Type="nchar" MaxLength="30" Nullable="false" />
+          <Property Name="ExamID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Username" Type="nchar" MaxLength="40" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="UsersDataModelStoreContainer">
+          <EntitySet Name="Exam1" EntityType="Self.Exam1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exam2" EntityType="Self.Exam2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exam3" EntityType="Self.Exam3" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UsersDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Exam1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Q1" Type="Boolean" Nullable="false" />
+          <Property Name="Q2" Type="Boolean" Nullable="false" />
+          <Property Name="Q3" Type="Boolean" Nullable="false" />
+          <Property Name="Q4" Type="Boolean" Nullable="false" />
+          <Property Name="Q5" Type="Boolean" Nullable="false" />
+          <Property Name="Q6" Type="Boolean" Nullable="false" />
+          <Property Name="Q7" Type="Boolean" Nullable="false" />
+          <Property Name="Q8" Type="Boolean" Nullable="false" />
+          <Property Name="Q9" Type="Boolean" Nullable="false" />
+          <Property Name="Q10" Type="Boolean" Nullable="false" />
+          <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exam2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Q1" Type="Boolean" Nullable="false" />
+          <Property Name="Q2" Type="Boolean" Nullable="false" />
+          <Property Name="Q3" Type="Boolean" Nullable="false" />
+          <Property Name="Q4" Type="Boolean" Nullable="false" />
+          <Property Name="Q5" Type="Boolean" Nullable="false" />
+          <Property Name="Q6" Type="Boolean" Nullable="false" />
+          <Property Name="Q7" Type="Boolean" Nullable="false" />
+          <Property Name="Q8" Type="Boolean" Nullable="false" />
+          <Property Name="Q9" Type="Boolean" Nullable="false" />
+          <Property Name="Q10" Type="Boolean" Nullable="false" />
+          <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exam3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Q1" Type="Boolean" Nullable="false" />
+          <Property Name="Q2" Type="Boolean" Nullable="false" />
+          <Property Name="Q3" Type="Boolean" Nullable="false" />
+          <Property Name="Q4" Type="Boolean" Nullable="false" />
+          <Property Name="Q5" Type="Boolean" Nullable="false" />
+          <Property Name="Q6" Type="Boolean" Nullable="false" />
+          <Property Name="Q7" Type="Boolean" Nullable="false" />
+          <Property Name="Q8" Type="Boolean" Nullable="false" />
+          <Property Name="Q9" Type="Boolean" Nullable="false" />
+          <Property Name="Q10" Type="Boolean" Nullable="false" />
+          <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="StudentName" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Course" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="ClassNumber" Type="Int32" Nullable="false" />
+          <Property Name="TotalGrade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+          <Property Name="ChapterName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="ExamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="UsersDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Exam1" EntityType="Self.Exam1" />
+          <EntitySet Name="Exam2" EntityType="Self.Exam2" />
+          <EntitySet Name="Exam3" EntityType="Self.Exam3" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UsersDataModelStoreContainer" CdmEntityContainer="UsersDataEntities">
+          <EntitySetMapping Name="Exam1">
+            <EntityTypeMapping TypeName="UsersDataModel.Exam1">
+              <MappingFragment StoreEntitySet="Exam1">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Q1" ColumnName="Q1" />
+                <ScalarProperty Name="Q2" ColumnName="Q2" />
+                <ScalarProperty Name="Q3" ColumnName="Q3" />
+                <ScalarProperty Name="Q4" ColumnName="Q4" />
+                <ScalarProperty Name="Q5" ColumnName="Q5" />
+                <ScalarProperty Name="Q6" ColumnName="Q6" />
+                <ScalarProperty Name="Q7" ColumnName="Q7" />
+                <ScalarProperty Name="Q8" ColumnName="Q8" />
+                <ScalarProperty Name="Q9" ColumnName="Q9" />
+                <ScalarProperty Name="Q10" ColumnName="Q10" />
+                <ScalarProperty Name="Grade" ColumnName="Grade" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Exam2">
+            <EntityTypeMapping TypeName="UsersDataModel.Exam2">
+              <MappingFragment StoreEntitySet="Exam2">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Q1" ColumnName="Q1" />
+                <ScalarProperty Name="Q2" ColumnName="Q2" />
+                <ScalarProperty Name="Q3" ColumnName="Q3" />
+                <ScalarProperty Name="Q4" ColumnName="Q4" />
+                <ScalarProperty Name="Q5" ColumnName="Q5" />
+                <ScalarProperty Name="Q6" ColumnName="Q6" />
+                <ScalarProperty Name="Q7" ColumnName="Q7" />
+                <ScalarProperty Name="Q8" ColumnName="Q8" />
+                <ScalarProperty Name="Q9" ColumnName="Q9" />
+                <ScalarProperty Name="Q10" ColumnName="Q10" />
+                <ScalarProperty Name="Grade" ColumnName="Grade" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Exam3">
+            <EntityTypeMapping TypeName="UsersDataModel.Exam3">
+              <MappingFragment StoreEntitySet="Exam3">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Q1" ColumnName="Q1" />
+                <ScalarProperty Name="Q2" ColumnName="Q2" />
+                <ScalarProperty Name="Q3" ColumnName="Q3" />
+                <ScalarProperty Name="Q4" ColumnName="Q4" />
+                <ScalarProperty Name="Q5" ColumnName="Q5" />
+                <ScalarProperty Name="Q6" ColumnName="Q6" />
+                <ScalarProperty Name="Q7" ColumnName="Q7" />
+                <ScalarProperty Name="Q8" ColumnName="Q8" />
+                <ScalarProperty Name="Q9" ColumnName="Q9" />
+                <ScalarProperty Name="Q10" ColumnName="Q10" />
+                <ScalarProperty Name="Grade" ColumnName="Grade" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="UsersDataModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="Course" ColumnName="Course" />
+                <ScalarProperty Name="ClassNumber" ColumnName="ClassNumber" />
+                <ScalarProperty Name="TotalGrade" ColumnName="TotalGrade" />
+                <ScalarProperty Name="ChapterName" ColumnName="ChapterName" />
+                <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

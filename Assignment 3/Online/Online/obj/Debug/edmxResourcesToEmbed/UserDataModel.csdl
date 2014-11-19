@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Exam1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam3">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Q1" Type="Boolean" Nullable="false" />
+    <Property Name="Q2" Type="Boolean" Nullable="false" />
+    <Property Name="Q3" Type="Boolean" Nullable="false" />
+    <Property Name="Q4" Type="Boolean" Nullable="false" />
+    <Property Name="Q5" Type="Boolean" Nullable="false" />
+    <Property Name="Q6" Type="Boolean" Nullable="false" />
+    <Property Name="Q7" Type="Boolean" Nullable="false" />
+    <Property Name="Q8" Type="Boolean" Nullable="false" />
+    <Property Name="Q9" Type="Boolean" Nullable="false" />
+    <Property Name="Q10" Type="Boolean" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="StudentName" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Course" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ClassNumber" Type="Int32" Nullable="false" />
+    <Property Name="TotalGrade" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="ChapterName" Type="String" MaxLength="30" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ExamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsersDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Exam1" EntityType="Self.Exam1" />
+    <EntitySet Name="Exam2" EntityType="Self.Exam2" />
+    <EntitySet Name="Exam3" EntityType="Self.Exam3" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>

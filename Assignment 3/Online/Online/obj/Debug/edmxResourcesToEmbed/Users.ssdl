@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Exam1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Q1" Type="bit" Nullable="false" />
+    <Property Name="Q2" Type="bit" Nullable="false" />
+    <Property Name="Q3" Type="bit" Nullable="false" />
+    <Property Name="Q4" Type="bit" Nullable="false" />
+    <Property Name="Q5" Type="bit" Nullable="false" />
+    <Property Name="Q6" Type="bit" Nullable="false" />
+    <Property Name="Q7" Type="bit" Nullable="false" />
+    <Property Name="Q8" Type="bit" Nullable="false" />
+    <Property Name="Q9" Type="bit" Nullable="false" />
+    <Property Name="Q10" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Q1" Type="bit" Nullable="false" />
+    <Property Name="Q2" Type="bit" Nullable="false" />
+    <Property Name="Q3" Type="bit" Nullable="false" />
+    <Property Name="Q4" Type="bit" Nullable="false" />
+    <Property Name="Q5" Type="bit" Nullable="false" />
+    <Property Name="Q6" Type="bit" Nullable="false" />
+    <Property Name="Q7" Type="bit" Nullable="false" />
+    <Property Name="Q8" Type="bit" Nullable="false" />
+    <Property Name="Q9" Type="bit" Nullable="false" />
+    <Property Name="Q10" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam3">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Q1" Type="bit" Nullable="false" />
+    <Property Name="Q2" Type="bit" Nullable="false" />
+    <Property Name="Q3" Type="bit" Nullable="false" />
+    <Property Name="Q4" Type="bit" Nullable="false" />
+    <Property Name="Q5" Type="bit" Nullable="false" />
+    <Property Name="Q6" Type="bit" Nullable="false" />
+    <Property Name="Q7" Type="bit" Nullable="false" />
+    <Property Name="Q8" Type="bit" Nullable="false" />
+    <Property Name="Q9" Type="bit" Nullable="false" />
+    <Property Name="Q10" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Student Name" Type="nchar" MaxLength="40" Nullable="false" />
+    <Property Name="Course" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="Class Number" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Total Grade" Type="real" Nullable="false" />
+    <Property Name="Chapter Name" Type="nchar" MaxLength="30" Nullable="false" />
+    <Property Name="Exam1" Type="int" Nullable="false" />
+    <Property Name="Exam2" Type="int" Nullable="false" />
+    <Property Name="Exam3" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsersModelStoreContainer">
+    <EntitySet Name="Exam1" EntityType="Self.Exam1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exam2" EntityType="Self.Exam2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exam3" EntityType="Self.Exam3" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
