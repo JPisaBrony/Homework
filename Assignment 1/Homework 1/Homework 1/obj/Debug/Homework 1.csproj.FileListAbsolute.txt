@@ -8,3 +8,13 @@ C:\Users\Josh\Desktop\Homework 1\Homework 1\obj\Debug\Homework 1.csproj.Generate
 C:\Users\Josh\Desktop\Homework 1\Homework 1\obj\Debug\Homework 1.exe
 C:\Users\Josh\Desktop\Homework 1\Homework 1\obj\Debug\Homework 1.pdb
 C:\Users\Josh\Desktop\Homework 1\Homework 1\obj\Debug\Homework_1.Form2.resources
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\bin\Debug\Homework 1.exe.config
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework 1.exe
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework 1.pdb
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\bin\Debug\Homework 1.exe
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\bin\Debug\Homework 1.pdb
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework 1.csprojResolveAssemblyReference.cache
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework_1.Form1.resources
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework_1.Form2.resources
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework_1.Properties.Resources.resources
+C:\Programing\Github\Homework\Assignment 1\Homework 1\Homework 1\obj\Debug\Homework 1.csproj.GenerateResource.Cache

@@ -59,7 +59,7 @@ namespace Homework_1
             userAnswers[19] = Convert.ToChar(listBox20.SelectedItem);
 
             // iterate through the user input data
-            for (i = 0; i < 5; i++)
+            for (i = 0; i < 20; i++)
             {
                 // check to see if the user has made a selection for each question
                 if (userAnswers[i] == '\0')

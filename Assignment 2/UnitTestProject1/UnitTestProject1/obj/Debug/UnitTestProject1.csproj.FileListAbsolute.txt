@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 G:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
 G:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
 G:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
@@ -8,3 +9,15 @@ F:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
 F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
 F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+=======
+G:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+G:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+G:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+G:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+G:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+F:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+F:\CSCI 213\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+F:\CSCI 213\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+>>>>>>> c9b649ab51856c9e14811ac262c7fe7311173c36

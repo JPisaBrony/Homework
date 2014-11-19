@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
@@ -18,3 +19,25 @@ C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplicat
 C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+=======
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\CSCI 213\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Programing\Github\Homework\Assignment 2\UnitTestProject1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+>>>>>>> c9b649ab51856c9e14811ac262c7fe7311173c36
